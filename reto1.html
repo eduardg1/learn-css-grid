@@ -8,23 +8,25 @@
 	<title>Document</title>
 </head>
 <style>
-	.container {
-		border: 5px solid aqua;
-		background: slateblue;
+	.container{
+		background-color: lightsalmon;
 		display: grid;
-		grid-template-columns: 100px 150px 100px;
-		grid-auto-rows: 100px;
-		grid-auto-flow: row;
-		/*column-gap: 5px;
-		row-gap: 5px;*/
-		grid-gap: 5px;
+		grid-template-rows: 100px 100px 100px;
+		grid-auto-columns: 100px;
+		grid-auto-flow: column;
+		grid-gap: 20px;
 	}
-
 	.item {
+		background-color: mediumaquamarine;
 		border: 4px solid aquamarine;
-		font-size: 4rem;
 		border-radius: 8px;
+		font-size: 3rem;
+		display: grid;
+		place-items: end;
+		
 	}
+	
+	
 </style>
 
 <body>
@@ -36,17 +38,9 @@
 		<div class="item">5</div>
 		<div class="item">6</div>
 	</div>
-	<h1>Propiedades del contenedor</h1>
-	<ul>
-		<li>Display Grid</li>
-		<li>Grid-template</li>
-		<li>Gaps</li>
-		<li>Grid-auto</li>
-	</ul>
-
-	<nav class="navbar">
-		<a href="/reto1.html">reto 1</a>
-	</nav>
+	<h1>reto 1</h1>
+	<p>Crear un grid de 3 filas y 2 columnas con un gap de 20px entre ellas</p>
+	
 
 </body>
 
