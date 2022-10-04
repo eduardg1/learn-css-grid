@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<style>
+	.container {
+		border: 5px solid aqua;
+		background: slateblue;
+		display: grid;
+		grid-auto-columns: 100px;
+		/*esto te permite que todas las clumnas tengan las mismas medidas*/
+		grid-auto-rows: 100px;
+		grid-auto-flow: column;
+		column-gap: 5px;
+	}
+
+	.item {
+		border: 4px solid aquamarine;
+		font-size: 4rem;
+	}
+</style>
+
+<body>
+	<div class="container">
+		<div class="item">1</div>
+		<div class="item">2</div>
+		<div class="item">3</div>
+		<div class="item">4</div>
+		<div class="item">5</div>
+		<div class="item">6</div>
+	</div>
+	<h1>Propiedades del contenedor</h1>
+	<ul>
+		<li>Display Grid</li>
+		<li>Grid-template</li>
+		<li>Gaps</li>
+		<li>Grid-auto</li>
+	</ul>
+
+</body>
+
+</html>
