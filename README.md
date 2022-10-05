@@ -19,3 +19,5 @@ Es un grupo de celdas, que solo pueden estar en una fila o en una misma columna
 
 ### Que es una area
 Es un grupo de celdas, estas pueden usar varias filas o varias columnas a la vez.
+
+

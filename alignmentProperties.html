@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+	 <meta charset="UTF-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <title>Document</title>
+ </head>
+  <style>
+		
+  </style>
+
+  <body>
+		<div>
+		<h1>propiedades de alineacion de los items</h1>
+		<ul>
+			<li>justify-items</li>
+			<li>aling-items</li>
+			<li>place-items</li>
+		</ul>
+		<p>justify: quire decir que nos ayuda a alinear de manera horizontal</p>
+		<p>aling: nos permite alinear de manera vertical</p>
+		<p>place: es la mezcla de los dos anteriores</p>
+		</div>
+
+		<div>
+			<h1>Propiedades de alineacion del contenedor</h1>
+			<ul>
+				<li>justify-content</li>
+				<li>aling-content</li>
+				<li>place-content</li>
+			</ul>
+			<p>estas propiedades funcionan igual que las anteriores solo que se aplica a la grilla completa</p>
+		</div>
+
+		<div class="container" 
+			style="
+			border: 5px solid #e1bee7;
+			display: grid;
+			grid-gap: 15px;
+			grid-template-columns: 100px 100px 100px;
+			grid-auto-rows: 100px;
+			height: 600px
+			">
+				<div class="item">1</div>
+		    <div class="item">2</div>
+		    <div class="item">3</div>
+				<div class="item">4</div>
+				<div class="item">5</div>
+				<div class="item">6</div>
+		</div>
+		
+	</body>
+
+</html>

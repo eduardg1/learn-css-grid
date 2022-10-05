@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+			.container{
+		display:grid;
+    background-color: salmon;
+    grid-template-columns: 100px 100px;
+    grid-auto-rows: 100px;
+    width: 300px;
+    place-content: center;
+    
+    
+			
+		}
+.item{
+  background-color: aqua;
+  border: 3px solid red;
+  border-radius: 6px;
+  display: grid;
+  place-content:end;
+}
+	</style>
+</head>
+	<body>
+		<p>
+			crear un grid 2x2 donde los items se ubiquen en la esquina inferior derecha
+			del contenedor, el contenedor debe estar centrado.
+		</p>
+	<div class="container">
+		<div class="item">1</div>
+		<div class="item">2</div>
+		<div class="item">3</div>
+		<div class="item">4</div>
+	</div>
+</body>
+
+</html>
